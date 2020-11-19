@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Rajdhani:wght@400;500;600&display=swap');
+body{
+		padding: 0;
+		margin: 0;
+		width:100%;
+		height:100vh;
+		overflow: hidden;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.7)),url('https://i.ibb.co/Q6Xf6gV/Whats-App-Image-2020-11-15-at-9-40-50-PM.jpg');
+		background-size: cover;
+		background-position: 50% 49%;
+		}
+		#particles-js{
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		}
+		main{
+		height: inherit;
+		width: inherit;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		}
+		hr {
+		border: 0;
+		height: 2px;
+		background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+		}
+		main .text{
+			text-align: center;
+			line-height:32px;
+		}
+		main .text #tagline{
+			font-family: 'Rajdhani', sans-serif;
+			text-shadow: 0px 0px 8px #000;
+			font-size: 100px;
+			letter-spacing: 4px;
+		}
+		main .text #name{
+			font-family: 'Alex Brush', cursive;
+			text-shadow: 0px 0px 4px #f1f1f1;
+			font-size: 100px;
+			letter-spacing: 4px;
+		}
+		#sign{
+			font-family: 'Rajdhani', sans-serif;
+			letter-spacing: 2px;
+			font-size: 32px;
+			position: absolute;
+			bottom: 0;
+			right: 60px;
+		}
+		ul li{
+			list-style-type: none;
+			display: inline-block;
+			font-size: 64px;
+			margin: 32px;
+			font-family: 'Rajdhani', sans-serif;
+		}
+		/* Extra small devices (phones, 600px and down) */
+		@media only screen and (max-width: 600px) {
+			body{
+		background-size: auto;
+		background-position: 51% 44%;
+			}
+			main .text{
+				line-height: 0px;
+			}
+		main .text #tagline{
+		font-size: 64px;
+		line-height: 64px;
+		}
+		main .text #name{
+			font-size: 64px;
+		}
+		ul li{
+			font-size: 64px;
+			margin: 16px;
+			line-height: 32px;
+		}
+		}
